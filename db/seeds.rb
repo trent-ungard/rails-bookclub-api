@@ -8,8 +8,5 @@
 Book.destroy_all
 User.destroy_all
 
-bookOne = Book.create(name: "1984", author: "George Orwell")
-
-userOne = User.create(name: "trentungard")
-
-
+Book.create!(name: "1984", author: "George Orwell")
+User.create(name: "trentungard")
